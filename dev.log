@@ -1,0 +1,12 @@
+npm notice run tutorconnect@0.1.0 dev
+npm notice run next dev
+▲ Next.js 16.3.8 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.184:3000
+✓ Ready in 3.9s
+✓ Running next.config.ts took 283ms
+
+○ Compiling / ...
+ GET / 200 in 15.4s (next.js: 15.1s, application-code: 266ms)
+ GET / 200 in 98ms (next.js: 20ms, application-code: 78ms)
+ GET / 200 in 75ms (next.js: 17ms, application-code: 59ms)

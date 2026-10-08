@@ -1,0 +1,33 @@
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     'C:\\Users\\HomePC\\Desktop\\tutorconnect\\node_modules\\@prisma\\composer\\node_modules\\vitest',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\HomePC\Desktop\tutorconnect\node_modules\@prisma\composer\node_modules\vitest'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\HomePC\\Desktop\\tutorconnect\\node_modules\\@prisma\\composer\\node_modules\\vitest'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\HomePC\\Desktop\\tutorconnect\\node_modules\\next',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\HomePC\Desktop\tutorconnect\node_modules\next\dist\esm'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\HomePC\\Desktop\\tutorconnect\\node_modules\\next\\dist\\esm'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     'C:\\Users\\HomePC\\Desktop\\tutorconnect\\node_modules\\next',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\HomePC\Desktop\tutorconnect\node_modules\next\dist\esm'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\HomePC\\Desktop\\tutorconnect\\node_modules\\next\\dist\\esm'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code ERR_SSL_CIPHER_OPERATION_FAILED
+npm error 84250000:error:1C800066:Provider routines:ossl_gcm_stream_update:cipher operation failed:openssl\providers\implementations\ciphers\ciphercommon_gcm.c:343:
+npm error
+npm error A complete log of this run can be found in: C:\Users\HomePC\AppData\Local\npm-cache\_logs\2026-10-07T16_43_05_000Z-debug-0.log
